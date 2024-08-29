@@ -8,11 +8,11 @@ const TimelineContainer = ({
   repositories: GithubRepository[];
 }) => {
   return (
-    <div className={style["timeline-container"]}>
+    <ul className={style["timeline-container"]}>
       {repositories.map((repository) => (
-        <TimelineRepository repository={repository} />
+        <TimelineRepository repository={repository} key={repository.html_url} />
       ))}
-    </div>
+    </ul>
   );
 };
 
