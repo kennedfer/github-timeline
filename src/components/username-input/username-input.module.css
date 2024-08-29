@@ -1,0 +1,11 @@
+.input-container {
+  display: flex;
+  border-radius: 12px;
+
+  border: 2px solid rgb(42, 42, 42);
+  overflow: hidden;
+}
+
+.input {
+  flex-grow: 1;
+}
