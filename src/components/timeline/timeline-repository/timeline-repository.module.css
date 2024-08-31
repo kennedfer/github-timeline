@@ -1,7 +1,5 @@
 .timeline-repository-container {
   position: relative;
-  padding: 10px;
-
   list-style: none;
 }
 
@@ -34,20 +32,29 @@
   flex-direction: column;
 
   position: relative;
+  padding: 30px;
 
   background-color: rgb(56, 56, 56);
 
-  padding: 20px;
 
   width: 30%;
   left: 10%;
-
-  justify-content: center;
 }
 
 .timeline-repository > h2{
   font-size: 1.5em;
-  margin-bottom: 0;
+  margin: 0;
+}
+
+.timeline-repository__created_at{
+  position: absolute;
+
+  top: 5px;
+  left: 10px;
+
+  font-weight: bold;
+
+  color: rgb(150, 150, 150);
 }
 
 .timeline-repository::before{
