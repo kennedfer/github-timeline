@@ -9,9 +9,9 @@ const TimelineRepository = ({
   return (
     <li className={styles["timeline-repository-container"]}>
       <div className={styles["timeline-repository"]}>
-        <div>{repository.name}</div>
-        <div>{repository.description}</div>
-        <div>{repository.html_url}</div>
+        <h2>{repository.name}</h2>
+        <i>{repository.description}</i>
+        <a href={repository.html_url}>Abrir repositorio</a>
       </div>
     </li>
   );
