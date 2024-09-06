@@ -1,11 +1,21 @@
 .input-container {
   display: flex;
-  border-radius: 12px;
 
-  border: 2px solid rgb(42, 42, 42);
+
   overflow: hidden;
 }
 
 .input {
   flex-grow: 1;
+  background-color: white;
+  color: black;
+
+  padding: 10px;
+  border: 2px solid rgb(104, 104, 104);
+  outline: none;
+  transition: 1s;
+}
+
+.button{
+  padding: 10px 15px;
 }

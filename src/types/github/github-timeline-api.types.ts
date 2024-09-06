@@ -1,9 +1,11 @@
 export type GithubRepository = {
   name: string;
   description: string;
-  created_at: string;
-  updated_at: string;
+  created_at_millis: number;
+  creation_year: number;
+  date_string:string;
   html_url: string;
+  color: string;
 };
 
 export type GithubUserInfo = {

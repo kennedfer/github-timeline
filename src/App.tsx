@@ -17,6 +17,7 @@ const App = () => {
   return (
     <>
       <div>
+        <h2>Github Timeline</h2>
         <UsernameInput callback={setGithubUserInfo} />
         {hasGithubInfo && ( //conditional render
           <div>

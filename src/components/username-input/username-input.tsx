@@ -20,8 +20,8 @@ const UsernameInput = ({callback}: {callback: React.Dispatch<React.SetStateActio
   }
 
   return <div className={styles["input-container"]}>
-    <input className={styles.input} onChange={handleUsernameChange} type="text" />
-    <button value={username} onClick={searchuser}>Buscar</button>
+    <input placeholder="Seu username do Github" className={styles.input} onChange={handleUsernameChange} type="text" />
+    <button className={styles.button} value={username} onClick={searchuser}>Buscar</button>
   </div>;
 }
 
